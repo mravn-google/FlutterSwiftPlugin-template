@@ -1,12 +1,13 @@
-# swift_plugin_poc
+# Flutter plugin written in swift
 
-this is an experimental template for write Flutter plugins in Swift.
+This is an experimental template to write Flutter plugins in Swift.
 
 [Documentation about Flutter plugins](https://flutter.io/platform-plugins/)
 
 When you create a plugin project with flutter CLI `flutter create --plugin my_plugin`, all generated iOS files are written in ObjectiveC.
 
 In this template, I replaced the plugin generated .h & .m files with swift 3 files.
+
 :warning: default objectiveC plugin are static libraries. To use swift you need to change to `dynamic library` in the Pods_Runner build settings.
 
 The plugin main file is [/ios/Classes/SwiftPluginPoc.swift](https://github.com/rxlabz/FlutterSwiftPlugin-template/blob/master/ios/Classes/SwiftPluginPoc.swift) 
