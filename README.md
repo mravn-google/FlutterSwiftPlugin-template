@@ -2,7 +2,14 @@
 
 This is an experimental template to write Flutter plugins in Swift.
 
-[Documentation about Flutter plugins](https://flutter.io/platform-plugins/)
+[Documentation about Flutter plugins](https://flutter.io/platform-plugins/) and [native Apis access from Flutter](https://flutter.io/platform-channels/)
+
+Basically, a Flutter plugin is a platform channel subscriber/pusher, packaged and shared as a Dart pub package.
+
+There is different types of channels :
+
+- [MethodChannel](https://docs.flutter.io/flutter/services/MethodChannel-class.html), allowing call native methods from Dart, and vice-versa.
+- and [BasicMessageChannel](https://docs.flutter.io/flutter/services/BasicMessageChannel-class.html), which is an async stream between Flutter Dart code and the host platform.
 
 When you create a plugin project with flutter CLI `flutter create --plugin my_plugin`, all generated iOS files are written in ObjectiveC.
 
@@ -39,7 +46,8 @@ import Flutter
 
 I also replaced all the example project files : 
 
-- [AppDelegate.swift](https://github.com/rxlabz/FlutterSwiftPlugin-template/blob/master/example/ios/Runner/AppDelegate.swift)
+- [AppDelegate.swift](https://github.com/rxlabz/FlutterSwiftPlugin-template/blob/master/example/ios/Runner/AppDelegate.swift) :
+ the AppDelegate class only instantiate a PluginRegistry.
 
 ```swift
 import UIKit
@@ -68,7 +76,10 @@ import Flutter
 
 ```
 
-- [PluginRegistry.swift](https://github.com/rxlabz/FlutterSwiftPlugin-template/blob/master/example/ios/Runner/PluginRegistry.swift)
+- [PluginRegistry.swift](https://github.com/rxlabz/FlutterSwiftPlugin-template/blob/master/example/ios/Runner/PluginRegistry.swift) :
+ the PluginRegistry instantiate all the application plugins.
+ 
+ Here we import the swift_plugin_poc module, to access the SwiftPluginPocPlugin class.
 
 ```swift
 import Foundation
