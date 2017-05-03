@@ -16,7 +16,7 @@ import Flutter
       return true
     }
 
-    plugins = PluginRegistry(flutterController)
+    plugins = PluginRegistry(withController: flutterController)
 
     return true
   }
