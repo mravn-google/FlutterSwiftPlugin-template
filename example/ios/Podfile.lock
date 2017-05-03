@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - swift_plugin_poc (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `/Users/rxlabz/dev/tools/flutter/bin/cache/artifacts/engine/ios`)
+  - swift_plugin_poc (from `/Users/rxlabz/dev/labz/flutter/plugins/swift_plugin_poc/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: /Users/rxlabz/dev/tools/flutter/bin/cache/artifacts/engine/ios
+  swift_plugin_poc:
+    :path: /Users/rxlabz/dev/labz/flutter/plugins/swift_plugin_poc/ios
+
+SPEC CHECKSUMS:
+  Flutter: d674e78c937094a75ac71dd77e921e840bea3dbf
+  swift_plugin_poc: cec441c0314076c889f6678241caf8f21fdf0b4e
+
+PODFILE CHECKSUM: cc70c01bca487bebd110b87397f017f3b76a89f1
+
+COCOAPODS: 1.2.0

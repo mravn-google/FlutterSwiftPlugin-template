@@ -1,0 +1,11 @@
+name: swift_plugin_poc
+description: A new flutter plugin project.
+
+flutter:
+  plugin:
+    androidPackage: com.yourcompany.swift_plugin_poc
+    pluginClass: SwiftPluginPocPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
