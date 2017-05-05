@@ -1,8 +1,10 @@
 # Flutter plugin written in swift
 
-This is an experimental template to write Flutter plugins in Swift.
+This is an experimental "empty" project template to write Flutter plugins in Swift ( complete example : [Flutter Audio](https://github.com/rxlabz/flutter_audio), an swift-based Flutter plugin example to play audio files).
 
 [Documentation about Flutter plugins](https://flutter.io/platform-plugins/) and [native Apis access from Flutter](https://flutter.io/platform-channels/)
+
+
 
 Basically, a Flutter plugin is a platform channel subscriber/pusher, packaged and shared as a Dart pub package.
 
