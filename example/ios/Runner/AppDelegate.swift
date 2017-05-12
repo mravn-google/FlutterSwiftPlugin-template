@@ -1,4 +1,4 @@
-import UIKit
+/*import UIKit
 import AVFoundation
 import Flutter
 
@@ -21,3 +21,30 @@ import Flutter
     return true
   }
 }
+*/
+
+import UIKit
+import AVFoundation
+import Flutter
+import swift_plugin_poc
+
+@UIApplicationMain
+@objc class AppDelegate: FlutterAppDelegate {
+    override func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
+        ) -> Bool {
+        
+        let pluginRegistrant = GeneratedPluginRegistrant()
+        pluginRegistrant.registerWithRegistry(registry: self);
+        
+        return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+    }
+}
+
+class GeneratedPluginRegistrant:NSObject{
+    
+    public func registerWithRegistry(registry:FlutterPluginRegistry){
+        SwiftPluginPocPlugin.register(with:registry as! FlutterPluginRegistrar)
+    }
+    
+}
+

@@ -20,7 +20,6 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		FD507CC31EB924FF00450ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD507CC21EB924FF00450ACA /* AppDelegate.swift */; };
-		FD507CC51EB925B200450ACA /* PluginRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD507CC41EB925B200450ACA /* PluginRegistry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,7 +53,6 @@
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD507CC11EB924FF00450ACA /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		FD507CC21EB924FF00450ACA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD507CC41EB925B200450ACA /* PluginRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluginRegistry.swift; sourceTree = "<group>"; };
 		FD507CC71EB9346B00450ACA /* swift_plugin_poc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = swift_plugin_poc.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/Runner-dpiesswrhjsgxwbxcjbnzfaayhwc/Build/Products/Debug-iphoneos/swift_plugin_poc/swift_plugin_poc.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +119,6 @@
 				97C147021CF9000F007C117D /* Info.plist */,
 				FD507CC21EB924FF00450ACA /* AppDelegate.swift */,
 				FD507CC11EB924FF00450ACA /* Runner-Bridging-Header.h */,
-				FD507CC41EB925B200450ACA /* PluginRegistry.swift */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -174,6 +171,11 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 2P474ERK4G;
 						LastSwiftMigration = 0830;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -294,7 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD507CC31EB924FF00450ACA /* AppDelegate.swift in Sources */,
-				FD507CC51EB925B200450ACA /* PluginRegistry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

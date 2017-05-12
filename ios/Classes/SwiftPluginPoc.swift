@@ -1,4 +1,4 @@
-import Foundation
+/*import Foundation
 import Flutter
 
 @objc public class SwiftPluginPocPlugin:NSObject{
@@ -18,4 +18,24 @@ import Flutter
             result( FlutterMethodNotImplemented)
         }
     }
+}*/
+
+import Foundation
+import Flutter
+
+@objc public class SwiftPluginPocPlugin:NSObject{
+    public static func register(with registrar: FlutterPluginRegistrar) {
+        let channel = FlutterMethodChannel(name: "swift_plugin_poc", binaryMessenger: registrar.messenger())
+        let instance:SwiftPluginPocPlugin  = SwiftPluginPocPlugin()
+        registrar.addMethodCallDelegate(instance as! FlutterPlugin, channel:channel)
+    }
+    
+    public func handle( _ call:FlutterMethodCall, result:FlutterResult ){
+        if call.method == "getPlatformVersion" {
+            result("iOS response : \(UIDevice.current.systemVersion)")
+        } else {
+            result( FlutterMethodNotImplemented)
+        }
+    }
 }
+

@@ -2,7 +2,7 @@ import Foundation
 import Flutter
 import swift_plugin_poc
 
-class PluginRegistry:NSObject{
+class GeneratedPluginRegistrant:NSObject{
     
     public func registerWithRegistry(registry:FlutterPluginRegistry){
         SwiftPluginPocPlugin.register(with:registry as! FlutterPluginRegistrar)
