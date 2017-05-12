@@ -26,7 +26,6 @@ import Flutter
 import UIKit
 import AVFoundation
 import Flutter
-import swift_plugin_poc
 
 @UIApplicationMain
 @objc(AppDelegate)
@@ -35,7 +34,7 @@ class AppDelegate: FlutterAppDelegate {
         ) -> Bool {
         
         let pluginRegistrant = GeneratedPluginRegistrant()
-        pluginRegistrant.registerWithRegistry(registry: self);
+        pluginRegistrant.registerWithRegistry(registry: self)
         
         return super.application(application, didFinishLaunchingWithOptions: launchOptions)
     }
