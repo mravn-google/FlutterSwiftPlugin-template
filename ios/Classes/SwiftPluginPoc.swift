@@ -12,7 +12,7 @@ public class SwiftPluginPocPlugin:NSObject{
         }
     }
     
-    @nonobjc public func handle( _ call:FlutterMethodCall, result: FlutterResult ){
+    public func handle( _ call:FlutterMethodCall, result: FlutterResult ){
         if call.method == "getPlatformVersion" {
             result("iOS response : \(UIDevice.current.systemVersion)")
         } else {
