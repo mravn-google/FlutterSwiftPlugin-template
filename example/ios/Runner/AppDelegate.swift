@@ -29,7 +29,8 @@ import Flutter
 import swift_plugin_poc
 
 @UIApplicationMain
-@objc class AppDelegate: FlutterAppDelegate {
+@objc(AppDelegate)
+class AppDelegate: FlutterAppDelegate {
     override func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
         ) -> Bool {
         
@@ -40,11 +41,5 @@ import swift_plugin_poc
     }
 }
 
-class GeneratedPluginRegistrant:NSObject{
-    
-    public func registerWithRegistry(registry:FlutterPluginRegistry){
-        SwiftPluginPocPlugin.register(with:registry as! FlutterPluginRegistrar)
-    }
-    
-}
+
 

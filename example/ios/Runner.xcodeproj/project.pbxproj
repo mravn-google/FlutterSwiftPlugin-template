@@ -19,6 +19,7 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		FD0EF4131EC5E5010004D8B0 /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0EF4121EC5E5010004D8B0 /* GeneratedPluginRegistrant.swift */; };
 		FD507CC31EB924FF00450ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD507CC21EB924FF00450ACA /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0EF4121EC5E5010004D8B0 /* GeneratedPluginRegistrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedPluginRegistrant.swift; sourceTree = "<group>"; };
 		FD507CC11EB924FF00450ACA /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		FD507CC21EB924FF00450ACA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD507CC71EB9346B00450ACA /* swift_plugin_poc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = swift_plugin_poc.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/Runner-dpiesswrhjsgxwbxcjbnzfaayhwc/Build/Products/Debug-iphoneos/swift_plugin_poc/swift_plugin_poc.framework"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				97C147021CF9000F007C117D /* Info.plist */,
 				FD507CC21EB924FF00450ACA /* AppDelegate.swift */,
 				FD507CC11EB924FF00450ACA /* Runner-Bridging-Header.h */,
+				FD0EF4121EC5E5010004D8B0 /* GeneratedPluginRegistrant.swift */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD507CC31EB924FF00450ACA /* AppDelegate.swift in Sources */,
+				FD0EF4131EC5E5010004D8B0 /* GeneratedPluginRegistrant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
