@@ -1,5 +1,7 @@
 # Flutter plugin written in swift
 
+:warning: UPDATE : 12/05/2017 : This template is not working with the last Plugin API.
+
 This is an experimental "empty" project template to write Flutter plugins in Swift ( a complete example : [Flutter Audio](https://github.com/rxlabz/flutter_audio) : swift-based Flutter plugin example to play audio files).
 
 [Documentation about Flutter plugins](https://flutter.io/platform-plugins/) and [native Apis access from Flutter](https://flutter.io/platform-channels/)
