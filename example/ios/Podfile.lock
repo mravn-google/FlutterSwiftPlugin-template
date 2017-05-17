@@ -4,14 +4,14 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
-  - Flutter (from `/Users/rxlabz/dev/tools/flutter/bin/cache/artifacts/engine/ios`)
-  - swift_plugin_poc (from `/Users/rxlabz/tmp/plugin_flutter/FlutterSwiftPlugin-template/ios`)
+  - Flutter (from `/Users/mravn/github/flutter/bin/cache/artifacts/engine/ios`)
+  - swift_plugin_poc (from `/Users/mravn/apps/FlutterSwiftPlugin-template/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: /Users/rxlabz/dev/tools/flutter/bin/cache/artifacts/engine/ios
+    :path: "/Users/mravn/github/flutter/bin/cache/artifacts/engine/ios"
   swift_plugin_poc:
-    :path: /Users/rxlabz/tmp/plugin_flutter/FlutterSwiftPlugin-template/ios
+    :path: "/Users/mravn/apps/FlutterSwiftPlugin-template/ios"
 
 SPEC CHECKSUMS:
   Flutter: d674e78c937094a75ac71dd77e921e840bea3dbf
@@ -19,4 +19,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: cc70c01bca487bebd110b87397f017f3b76a89f1
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

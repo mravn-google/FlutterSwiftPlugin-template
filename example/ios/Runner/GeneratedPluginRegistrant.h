@@ -7,7 +7,7 @@
 
 #import <Flutter/Flutter.h>
 
-#import "SwiftPluginPocPlugin.h"
+#import <swift_plugin_poc/swift_plugin_poc-Swift.h>
 
 @interface GeneratedPluginRegistrant : NSObject
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;
